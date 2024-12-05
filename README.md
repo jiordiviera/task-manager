@@ -11,7 +11,7 @@ Task Manager est une application web moderne de gestion de tâches construite av
 - Marquage des tâches comme complétées
 - Ajout de nouvelles tâches via un modal
 - Navigation entre différentes sections (Today's Task, Messages, Last Activity)
-- Ordonnancement des tâches par glisser-déposer
+- Ordonnancement des tâches par glisser-déposer(Pas encore très optimal)
 - Design responsive et animations fluides
 
 ## Structure du projet
@@ -56,12 +56,11 @@ Les styles sont gérés principalement via Tailwind CSS, avec quelques styles pe
 - Implémentation de la persistance des données (backend API ou stockage local)
 - Ajout de fonctionnalités pour les sections Messages et Last Activity
 - Amélioration de la gestion des participants (ajout/suppression)
-- Implémentation de tests unitaires et d'intégration
 
-## Contribution
+## Test
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request pour des améliorations ou des corrections de bugs.
+Pour lancer les tests, exécutez la commande suivante :
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier \`LICENSE\` pour plus de détails.
+```bash
+npm run test
+```
