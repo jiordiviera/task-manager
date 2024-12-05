@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.className} antialiased`}
+        className={`${outfit.className} antialiased overflow-x-hidden`}
       >
       <TaskProvider>
           {children}
